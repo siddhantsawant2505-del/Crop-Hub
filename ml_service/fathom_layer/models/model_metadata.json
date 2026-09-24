@@ -1,0 +1,33 @@
+{
+  "trained_at": "2026-04-26T12:35:07.433396+00:00",
+  "train_rows": 14080,
+  "val_rows": 1760,
+  "test_rows": 1760,
+  "n_features": 24,
+  "yield_model": {
+    "cv_r2_mean": 1.0,
+    "val_mae": 0.0274,
+    "val_rmse": 0.085,
+    "val_r2": 1.0,
+    "test_mae": 0.0289,
+    "test_rmse": 0.111,
+    "test_r2": 1.0
+  },
+  "margin_model": {
+    "val_mae": 0.0165,
+    "val_rmse": 0.0316,
+    "val_r2": 1.0,
+    "test_mae": 0.016,
+    "test_rmse": 0.0273,
+    "test_r2": 1.0
+  },
+  "suitability_model": {
+    "val_accuracy": 0.9903,
+    "val_f1": 0.9951,
+    "val_roc_auc": 0.9995,
+    "test_accuracy": 0.9915,
+    "test_f1": 0.9957,
+    "test_roc_auc": 0.9997,
+    "calibration_error": 0.3658
+  }
+}

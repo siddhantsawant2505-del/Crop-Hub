@@ -1,0 +1,74 @@
+# ── Python runtime ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ── Virtual environment ────────────────────────────────────────────────────────
+venv/
+env/
+.env
+.venv/
+
+# ── Trained model files (large binary assets) ─────────────────────────────────
+*.keras
+*.h5
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# ── Scaler and serialised objects ─────────────────────────────────────────────
+*.pkl
+*.joblib
+
+# ── Datasets (never commit raw data to git) ───────────────────────────────────
+dataset/
+dataset/**
+data/raw/
+data/processed/
+# Note: logistics_layer/data/mandis_india.json is intentionally tracked (static reference dataset)
+
+# ── Evaluation outputs ────────────────────────────────────────────────────────
+evaluation/
+specialist_subset/
+
+# ── Jupyter / IPython ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Coverage and test artefacts ───────────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+*.xml
+
+# ── OS and editor noise ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Secrets ───────────────────────────────────────────────────────────────────
+soil-app-bot_accessKeys.csv
+
+# ── Large binary/archive files ────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# ── Logistics Layer — runtime artefacts ───────────────────────────────────────
+# Price cache dumps (if ever persisted to disk for debugging)
+price_cache*.json
+price_cache*.pkl
+# Mandi search result snapshots
+mandi_results_*.json

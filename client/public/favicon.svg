@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Structural Hexagon Node Map -->
+  <path d="M20 2L35.5885 11V29L20 38L4.41154 29V11L20 2Z" stroke="#00E87A" stroke-width="1.5" stroke-dasharray="2 2" opacity="0.5" />
+  
+  <!-- Core Biological Element (Leaf) -->
+  <path d="M20 8C20 8 30 15 30 25C30 30.5228 25.5228 35 20 35C14.4772 35 10 30.5228 10 25C10 15 20 8 20 8Z" fill="#00E87A" />
+  
+  <!-- Technical Data Points -->
+  <circle cx="20" cy="2" r="1.5" fill="#00E87A" />
+  <circle cx="35.5" cy="11" r="1.5" fill="#00E87A" />
+  <circle cx="35.5" cy="29" r="1.5" fill="#00E87A" />
+  <circle cx="20" cy="38" r="1.5" fill="#00E87A" />
+  <circle cx="4.5" cy="29" r="1.5" fill="#00E87A" />
+  <circle cx="4.5" cy="11" r="1.5" fill="#00E87A" />
+</svg>

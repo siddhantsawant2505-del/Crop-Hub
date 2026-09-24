@@ -1,0 +1,562 @@
+[
+    {
+      "id": "m1",
+      "name": "Pune APMC (Gultekdi)",
+      "lat": 18.5018,
+      "lon": 73.8636,
+      "state": "Maharashtra",
+      "district": "Pune",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-20-24268292",
+        "secretary_name": "Rohan Deshmukh",
+        "address": "Gultekdi, Pune, Maharashtra 411037",
+        "timings": "5:00 AM – 3:00 PM (Mon–Sun)",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m2",
+      "name": "Mumbai APMC (Vashi)",
+      "lat": 19.0748,
+      "lon": 73.0039,
+      "state": "Maharashtra",
+      "district": "Mumbai",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-22-27684000",
+        "secretary_name": "Satish Patil",
+        "address": "Sector 19, Vashi, Navi Mumbai, Maharashtra 400703",
+        "timings": "4:00 AM – 2:00 PM (Closed Sunday)",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m3",
+      "name": "Azadpur Mandi",
+      "lat": 28.7303,
+      "lon": 77.1724,
+      "state": "Delhi",
+      "district": "North Delhi",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-11-27691515",
+        "secretary_name": "Vikram Singh",
+        "address": "Azadpur, New Delhi, Delhi 110033",
+        "timings": "24 Hours",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m4",
+      "name": "Nashik APMC",
+      "lat": 20.0116,
+      "lon": 73.8054,
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-253-2511456",
+        "secretary_name": "Kishore Kadam",
+        "address": "Peth Road, Panchavati, Nashik, Maharashtra 422003",
+        "timings": "6:00 AM – 4:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m5",
+      "name": "Ahmedabad APMC",
+      "lat": 22.9856,
+      "lon": 72.5369,
+      "state": "Gujarat",
+      "district": "Ahmedabad",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-79-26601444",
+        "secretary_name": "Jayesh Patel",
+        "address": "Sarkhej-Juhapura Road, Ahmedabad, Gujarat",
+        "timings": "5:00 AM – 1:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m6",
+      "name": "Lasalgaon Onion Market",
+      "lat": 20.1408,
+      "lon": 74.2255,
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-2550-266023",
+        "secretary_name": "Suvarna Jagtap",
+        "address": "Lasalgaon, Niphad Taluka, Nashik, Maharashtra",
+        "timings": "9:00 AM – 6:00 PM (Closed Sunday)",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m7",
+      "name": "Solapur APMC",
+      "lat": 17.6599,
+      "lon": 75.9064,
+      "state": "Maharashtra",
+      "district": "Solapur",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-217-2720231",
+        "secretary_name": "Arun Bhosale",
+        "address": "Bhavani Peth, Solapur, Maharashtra",
+        "timings": "6:00 AM – 5:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m8",
+      "name": "Surat APMC",
+      "lat": 21.1963,
+      "lon": 72.8447,
+      "state": "Gujarat",
+      "district": "Surat",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-261-2335123",
+        "secretary_name": "Bharatbhai Desai",
+        "address": "Sahara Darwaja, Surat, Gujarat",
+        "timings": "4:00 AM – 2:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m9",
+      "name": "Nagpur APMC (Kalamna)",
+      "lat": 21.1689,
+      "lon": 79.1362,
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-712-2680456",
+        "secretary_name": "Vijay Wanjari",
+        "address": "Kalamna Market, Nagpur, Maharashtra",
+        "timings": "6:00 AM – 6:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m10",
+      "name": "Indore APMC (Choithram)",
+      "lat": 22.6888,
+      "lon": 75.8552,
+      "state": "Madhya Pradesh",
+      "district": "Indore",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-731-2465123",
+        "secretary_name": "Sanjay Sharma",
+        "address": "Choithram Mandi, AB Road, Indore, MP",
+        "timings": "5:00 AM – 3:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m11",
+      "name": "Ujjain APMC",
+      "lat": 23.1859,
+      "lon": 75.7831,
+      "state": "Madhya Pradesh",
+      "district": "Ujjain",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-7368-251234",
+        "secretary_name": "Mohan Yadav",
+        "address": "Ujjain Mandi, Madhya Pradesh",
+        "timings": "8:00 AM – 5:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m12",
+      "name": "Bhopal Karond Mandi",
+      "lat": 23.2922,
+      "lon": 77.4082,
+      "state": "Madhya Pradesh",
+      "district": "Bhopal",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-755-2742111",
+        "secretary_name": "Rakesh Raghuvanshi",
+        "address": "Karond Mandi, Bhopal, Madhya Pradesh",
+        "timings": "6:00 AM – 4:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m13",
+      "name": "Rajkot APMC",
+      "lat": 22.2858,
+      "lon": 70.8037,
+      "state": "Gujarat",
+      "district": "Rajkot",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-281-2384561",
+        "secretary_name": "Hareshbhai Patel",
+        "address": "Bedi Yard, Rajkot, Gujarat",
+        "timings": "8:00 AM – 6:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m14",
+      "name": "Jaipur Muhana Mandi",
+      "lat": 26.8378,
+      "lon": 75.7483,
+      "state": "Rajasthan",
+      "district": "Jaipur",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-141-2396123",
+        "secretary_name": "Surendra Choudhary",
+        "address": "Muhana Terminal Market, Sanganer, Jaipur",
+        "timings": "4:00 AM – 1:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m15",
+      "name": "Kota APMC",
+      "lat": 25.1764,
+      "lon": 75.8643,
+      "state": "Rajasthan",
+      "district": "Kota",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-744-2451122",
+        "secretary_name": "Ram Singh",
+        "address": "Krishi Upaj Mandi, Kota, Rajasthan",
+        "timings": "8:00 AM – 5:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m16",
+      "name": "Hyderabad Bowenpally",
+      "lat": 17.4697,
+      "lon": 78.4735,
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-40-27751234",
+        "secretary_name": "Srinivas Rao",
+        "address": "Bowenpally Market, Secunderabad, Telangana",
+        "timings": "5:00 AM – 2:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m17",
+      "name": "Warangal APMC (Enamamula)",
+      "lat": 17.9868,
+      "lon": 79.6267,
+      "state": "Telangana",
+      "district": "Warangal",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-870-2441234",
+        "secretary_name": "Raju Reddy",
+        "address": "Enamamula Market Yard, Warangal",
+        "timings": "7:00 AM – 6:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m18",
+      "name": "Guntur Mirchi Yard",
+      "lat": 16.3312,
+      "lon": 80.4485,
+      "state": "Andhra Pradesh",
+      "district": "Guntur",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-863-2244123",
+        "secretary_name": "Subba Rao",
+        "address": "Chuttugunta, Guntur, Andhra Pradesh",
+        "timings": "6:00 AM – 4:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m19",
+      "name": "Vijayawada Bhavanipuram",
+      "lat": 16.5161,
+      "lon": 80.5982,
+      "state": "Andhra Pradesh",
+      "district": "NTR",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-866-2415123",
+        "secretary_name": "Kiran Kumar",
+        "address": "Bhavanipuram, Vijayawada, AP",
+        "timings": "5:00 AM – 2:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m20",
+      "name": "Bengaluru APMC (Yeshwanthpur)",
+      "lat": 13.0298,
+      "lon": 77.5446,
+      "state": "Karnataka",
+      "district": "Bengaluru Urban",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-80-23371234",
+        "secretary_name": "Manjunath Gowda",
+        "address": "Yeshwanthpur, Bengaluru, Karnataka",
+        "timings": "6:00 AM – 6:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m21",
+      "name": "Hubballi APMC (Amargol)",
+      "lat": 15.3905,
+      "lon": 75.1432,
+      "state": "Karnataka",
+      "district": "Dharwad",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-836-2224123",
+        "secretary_name": "Basavaraj Patil",
+        "address": "Amargol, Hubballi, Karnataka",
+        "timings": "8:00 AM – 5:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m22",
+      "name": "Mysuru APMC (Bandipalya)",
+      "lat": 12.2612,
+      "lon": 76.6575,
+      "state": "Karnataka",
+      "district": "Mysuru",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-821-2481122",
+        "secretary_name": "Suresh H.",
+        "address": "Bandipalya, Mysuru, Karnataka",
+        "timings": "6:00 AM – 4:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m23",
+      "name": "Chennai Koyambedu",
+      "lat": 13.0697,
+      "lon": 80.1947,
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-44-24791234",
+        "secretary_name": "K. Muthu",
+        "address": "Koyambedu Wholesale Market Complex, Chennai",
+        "timings": "2:00 AM – 1:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m24",
+      "name": "Coimbatore Mettupalayam",
+      "lat": 11.3005,
+      "lon": 76.9405,
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-4254-222123",
+        "secretary_name": "P. Selvam",
+        "address": "Mettupalayam Market, Coimbatore, TN",
+        "timings": "6:00 AM – 6:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m25",
+      "name": "Madurai Mattuthavani",
+      "lat": 9.9392,
+      "lon": 78.1517,
+      "state": "Tamil Nadu",
+      "district": "Madurai",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-452-2581234",
+        "secretary_name": "S. Kannan",
+        "address": "Central Market Mattuthavani, Madurai",
+        "timings": "4:00 AM – 2:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m26",
+      "name": "Kanpur APMC (Naubasta)",
+      "lat": 26.4172,
+      "lon": 80.3204,
+      "state": "Uttar Pradesh",
+      "district": "Kanpur",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-512-2234123",
+        "secretary_name": "Vikas Tiwari",
+        "address": "Naubasta Galla Mandi, Kanpur, UP",
+        "timings": "8:00 AM – 5:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m27",
+      "name": "Lucknow Navin Mandi",
+      "lat": 26.8837,
+      "lon": 80.9575,
+      "state": "Uttar Pradesh",
+      "district": "Lucknow",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-522-2731234",
+        "secretary_name": "Rajiv Kumar",
+        "address": "Sitapur Road, Lucknow, UP",
+        "timings": "6:00 AM – 3:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m28",
+      "name": "Agra APMC",
+      "lat": 27.2023,
+      "lon": 77.9946,
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-562-2261234",
+        "secretary_name": "Deepak Gupta",
+        "address": "Sikandra Mandi, Agra, UP",
+        "timings": "7:00 AM – 4:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m29",
+      "name": "Chandigarh APMC (Sector 26)",
+      "lat": 30.7275,
+      "lon": 76.8048,
+      "state": "Chandigarh",
+      "district": "Chandigarh",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-172-2791234",
+        "secretary_name": "Harjeet Singh",
+        "address": "Sector 26 Grain Market, Chandigarh",
+        "timings": "4:00 AM – 2:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m30",
+      "name": "Ludhiana APMC",
+      "lat": 30.8986,
+      "lon": 75.8453,
+      "state": "Punjab",
+      "district": "Ludhiana",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-161-2441234",
+        "secretary_name": "Gurpreet Sandhu",
+        "address": "Dana Mandi, Jalandhar Bypass, Ludhiana",
+        "timings": "8:00 AM – 6:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m31",
+      "name": "Patna APMC (Musallahpur)",
+      "lat": 25.6186,
+      "lon": 85.1633,
+      "state": "Bihar",
+      "district": "Patna",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-612-2301234",
+        "secretary_name": "Alok Ranjan",
+        "address": "Musallahpur Hat, Patna, Bihar",
+        "timings": "5:00 AM – 1:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m32",
+      "name": "Kolkata Burrabazar (Posta)",
+      "lat": 22.5835,
+      "lon": 88.3582,
+      "state": "West Bengal",
+      "district": "Kolkata",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-33-22341234",
+        "secretary_name": "Amitabha Das",
+        "address": "Posta, Burrabazar, Kolkata",
+        "timings": "6:00 AM – 4:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m33",
+      "name": "Bhubaneswar Unit-1 Market",
+      "lat": 20.2743,
+      "lon": 85.8335,
+      "state": "Odisha",
+      "district": "Khurda",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-674-2531234",
+        "secretary_name": "P. K. Mohanty",
+        "address": "Unit-1 Haat, Bhubaneswar, Odisha",
+        "timings": "5:00 AM – 1:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m34",
+      "name": "Raipur APMC (Pandri)",
+      "lat": 21.2505,
+      "lon": 81.6508,
+      "state": "Chhattisgarh",
+      "district": "Raipur",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-771-2441234",
+        "secretary_name": "Sunil Jain",
+        "address": "Pandri Mandi, Raipur, Chhattisgarh",
+        "timings": "7:00 AM – 5:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    },
+    {
+      "id": "m35",
+      "name": "Guwahati Fancy Bazar",
+      "lat": 26.1824,
+      "lon": 91.7371,
+      "state": "Assam",
+      "district": "Kamrup Metropolitan",
+      "type": "APMC",
+      "contact": {
+        "phone": "+91-361-2541234",
+        "secretary_name": "H. B. Sharma",
+        "address": "Fancy Bazar Market, Guwahati, Assam",
+        "timings": "6:00 AM – 3:00 PM",
+        "helpline": "1800-180-1551"
+      }
+    }
+]

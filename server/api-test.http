@@ -1,0 +1,114 @@
+@baseUrl = http://localhost:5000
+@token = your_jwt_token_here
+
+### Health Check
+GET {{baseUrl}}/api/health
+
+### Register User
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Test Farmer",
+  "email": "test@crophub.com",
+  "password": "password123"
+}
+
+### Login User
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@crophub.com",
+  "password": "password123"
+}
+
+### Get Current User
+GET {{baseUrl}}/api/auth/me
+Authorization: Bearer {{token}}
+
+### Update Profile
+PUT {{baseUrl}}/api/auth/profile
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "name": "Updated Farmer Name",
+  "landSize": 20,
+  "budget": 250000,
+  "farmLocation": {
+    "type": "Point",
+    "coordinates": [77.5946, 12.9716],
+    "address": "Bangalore, Karnataka"
+  }
+}
+
+### Analyze Soil
+POST {{baseUrl}}/api/soil/analyze
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="soilImage"; filename="soil.jpg"
+Content-Type: image/jpeg
+
+< ./path/to/soil-image.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### Get Soil Analyses
+GET {{baseUrl}}/api/soil?page=1&limit=10
+Authorization: Bearer {{token}}
+
+### Get Soil Analysis by ID
+GET {{baseUrl}}/api/soil/{{soilAnalysisId}}
+Authorization: Bearer {{token}}
+
+### Create Crop Plan
+POST {{baseUrl}}/api/crop/plan
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "budget": 200000,
+  "landSize": 15,
+  "season": "Kharif 2024"
+}
+
+### Get Crop Plans
+GET {{baseUrl}}/api/crop/plans?page=1&limit=10&status=active
+Authorization: Bearer {{token}}
+
+### Get Crop Plan by ID
+GET {{baseUrl}}/api/crop/plans/{{cropPlanId}}
+Authorization: Bearer {{token}}
+
+### Update Crop Plan Status
+PATCH {{baseUrl}}/api/crop/plans/{{cropPlanId}}/status
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "status": "completed"
+}
+
+### Analyze Market
+POST {{baseUrl}}/api/market/analyze
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "cropType": "Maize",
+  "weightTons": 5,
+  "farmLocation": {
+    "type": "Point",
+    "coordinates": [77.5946, 12.9716]
+  }
+}
+
+### Get Market Analyses
+GET {{baseUrl}}/api/market/analyses?page=1&limit=10
+Authorization: Bearer {{token}}
+
+### Get Market Prices
+GET {{baseUrl}}/api/market/prices?cropType=Maize
+Authorization: Bearer {{token}}

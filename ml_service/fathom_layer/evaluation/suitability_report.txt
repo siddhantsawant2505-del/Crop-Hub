@@ -1,0 +1,18 @@
+====================================================
+  Suitability Model — Test Set Report
+====================================================
+  ROC-AUC : 0.9993
+
+              precision    recall  f1-score   support
+
+Not Suitable       0.42      1.00      0.59        11
+    Suitable       1.00      0.99      1.00      1749
+
+    accuracy                           0.99      1760
+   macro avg       0.71      1.00      0.80      1760
+weighted avg       1.00      0.99      0.99      1760
+
+  Per-Crop Precision / Recall / F1:
+----------------------------------------
+  Groundnut        acc=0.991  f1=0.995  n=560
+  Lentils          acc=0.982  f1=0.991  n=560

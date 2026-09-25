@@ -1,0 +1,25 @@
+====================================================
+  Yield Model — Test Set Report
+====================================================
+  Overall MAE  : 0.0289
+  Overall RMSE : 0.1110
+  Overall R²   : 1.0000
+
+  Per-Crop Breakdown:
+----------------------------------------
+  Cotton           MAE=0.017  R²=0.900  n=80
+  Groundnut        MAE=0.009  R²=0.989  n=560
+  Lentils          MAE=0.009  R²=0.851  n=560
+  Maize            MAE=0.012  R²=0.937  n=240
+  Rice             MAE=0.031  R²=0.728  n=80
+  Sugarcane        MAE=0.142  R²=0.993  n=240
+
+  Per-Soil-Type Breakdown:
+----------------------------------------
+  Alluvial_Soil         MAE=0.051  R²=1.000  n=97
+  Arid_Soil             MAE=0.013  R²=0.000  n=1
+  Black_Soil            MAE=0.035  R²=1.000  n=262
+  Laterite_Soil         MAE=0.059  R²=0.998  n=14
+  Mountain_Soil         MAE=0.031  R²=1.000  n=256
+  Red_Soil              MAE=0.007  R²=0.996  n=227
+  Yellow_Soil           MAE=0.029  R²=1.000  n=903
